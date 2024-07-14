@@ -9,8 +9,6 @@ import { toggleStatus } from "../../utils/loginSlice";
 // import { getServerSession } from "next-auth";
 import { useSession } from "next-auth/react";
 
-
-
 const Signup = () => {
 
   const {data:session, status} =  useSession()
